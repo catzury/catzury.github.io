@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(226, 136, 136);
+  width: 100%;
+}
+a {
+  text-decoration: none !important;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li{
+  margin: 15px;
+  color: rgb(238, 25, 10);
+}
+img {
+  width: 90px;
+  border-radius: 50px;
+  padding: 3px;
+  margin: 1px;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 36px;
+  color: rgb(226, 38, 38);
+  font-family: "Fredericka the Great", cursive;
+}
+p {
+  color: green;
+  font-family: "Sue Ellen Francisco", cursive;
+}
+.lamejorfruta {
+  width: 100%;
+  display: flex;
+  background-color: rgb(213, 240, 185);
+  flex-direction:column;
+  align-items: center;
+}
+.lamejorfruta h1 {
+  font-size: 36px;
+  color: rgb(222, 50, 50);
+}
+.lamejorfruta p {
+  width: 100%;
+  font-size: 25px;
+  padding: 10px;
+  font-family: "Sue Ellen Francisco", cursive;
+}
+
+#segundop p{
+  width: 100%;
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Sue Ellen Francisco", cursive;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: rgb(213, 240, 185);
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.caja img{
+  width: 100%;
+  height: 100%;
+  padding: 15px 0px 15px 0px;
+  border-radius: 50%;
+}
+.caja h1{
+  color: rgb(240, 56, 43);
+}
+
+.caja p{
+  font-size: 30px;
+  font-family: "Sue Ellen Francisco", cursive;
+}
+
+#mapyoutube{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#mapyoutube iframe {
+  width: 100%;
+  height: 460px;
+  padding: 5px;
+  margin: 5px;
+}
+.curiosidades {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.curiosidades h1{
+  color: rgb(92, 196, 66);
+}
+
+.curiosidades p{
+  width: 100%;
+  font-size: 30px;
+  padding: 5px;
+  font-family: "Sue Ellen Francisco", cursive;
+}
+
+.contacto h1{
+  font-size: 50px;
+  color:rgb(92, 196, 66); 
+}
+.contacto {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto ul {
+  list-style: none;
+}
+
+#footer {
+  background-color: rgb(88, 210, 88);
+}
+
+.otros{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.otros h1{
+  font-size: 45px;
+  color: rgb(88, 210, 88);
+}

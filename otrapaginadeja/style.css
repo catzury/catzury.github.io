@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+a{
+    text-decoration: none !important;   
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+     color: rgb(60, 60, 121);
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(60, 60, 121);
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: rgb(120, 120, 223);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(60, 60, 121);
+}
+.presentacion p{
+     width: 100%;
+     font-size: 30px;
+     padding: 10px;
+     font-family: 'Edu SA Beginner', cursive;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: aliceblue;
+    
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    width: 50%;
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    width: 100%;
+    height: 415px;
+    padding: 10px;
+    margin: 10px;
+}
+
